@@ -8,10 +8,9 @@ env:
   IMAGE_REGISTRY_URL: ghcr.io
   ###############################################
   ### Replace elendc with GitHub username ###
-  ###############################################
   DOCKER_IMAGE_NAME: elendc-azure-ttt
   AZURE_WEBAPP_NAME: elendc-ttt-app
-  ###############################################
+
 
 jobs:
   build:
